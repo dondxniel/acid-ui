@@ -110,4 +110,4 @@ export default App;
 
 | Access  | Variety                                                                                                 |
 | ------- | ------------------------------------------------------------------------------------------------------- |
-| Exports | `bounceIn, flash, pulse, rubberBand, shakeX, shakeY, headShake, swing, tada, wobble, jello, heartBeat,` |
+| Destructured | `bounceIn, flash, pulse, rubberBand, shakeX, shakeY, headShake, swing, tada, wobble, jello, heartBeat,` |
