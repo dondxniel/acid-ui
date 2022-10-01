@@ -1,4 +1,4 @@
 export default {
-	pw: "password",
-	txt: "text",
+  pw: 'password',
+  txt: 'text',
 };

@@ -2,3 +2,4 @@ node_modules
 dist
 .storybook
 src/stories
+yarn-error.log

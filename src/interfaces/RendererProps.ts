@@ -1,94 +1,96 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
+
 export default interface RendererProps {
-	children: ReactNode;
-	type: "block" | "inline";
-	entranceDelay?: 0 | 2 | 3 | 4 | 5;
-	entranceSpeed?: "normal" | "slow" | "slower" | "fast" | "faster";
-	animationRepeat?: 0 | 1 | 2 | 3 | "infinite";
-	entranceType?:
-		| "specialsJackInTheBox"
-		| "specialsRollIn"
-		| "backInDown"
-		| "backInLeft"
-		| "backInRight"
-		| "backInUp"
-		| "bounceIn"
-		| "bounceInDown"
-		| "bounceInLeft"
-		| "bounceInRight"
-		| "bounceInUp"
-		| "fadeIn"
-		| "fadeInDown"
-		| "fadeInDownBig"
-		| "fadeInLeft"
-		| "fadeInLeftBig"
-		| "fadeInRight"
-		| "fadeInRightBig"
-		| "fadeInUp"
-		| "fadeInUpBig"
-		| "fadeInTopLeft"
-		| "fadeInTopRight"
-		| "fadeInBottomLeft"
-		| "fadeInBottomRight"
-		| "flipInX"
-		| "flipInY"
-		| "lightSpeedInRight"
-		| "lightSpeedInLeft"
-		| "rotateIn"
-		| "rotateInDownLeft"
-		| "rotateInDownRight"
-		| "rotateInUpLeft"
-		| "rotateInUpRight"
-		| "zoomIn"
-		| "zoomInUp"
-		| "zoomInDown"
-		| "zoomInLeft"
-		| "zoomInRight"
-		| "slideInDown"
-		| "slideInLeft"
-		| "slideInRight"
-		| "slideInUp";
-	exitType?:
-		| "specialsHinge"
-		| "specialsRollOut"
-		| "backOutDown"
-		| "backOutLeft"
-		| "backOutRight"
-		| "backOutUp"
-		| "bounceOut"
-		| "bounceOutDown"
-		| "bounceOutLeft"
-		| "bounceOutRight"
-		| "bounceOutUp"
-		| "fadeOut"
-		| "fadeOutDown"
-		| "fadeOutDownBig"
-		| "fadeOutLeft"
-		| "fadeOutLeftBig"
-		| "fadeOutRight"
-		| "fadeOutRightBig"
-		| "fadeOutUp"
-		| "fadeOutUpBig"
-		| "fadeOutTopLeft"
-		| "fadeOutTopRight"
-		| "fadeOutBottomLeft"
-		| "fadeOutBottomRight"
-		| "flipOutX"
-		| "flipOutY"
-		| "lightSpeedOutRight"
-		| "lightSpeedOutLeft"
-		| "rotateOut"
-		| "rotateOutDownLeft"
-		| "rotateOutDownRight"
-		| "rotateOutUpLeft"
-		| "rotateOutUpRight"
-		| "zoomOut"
-		| "zoomOutUp"
-		| "zoomOutDown"
-		| "zoomOutLeft"
-		| "zoomOutRight"
-		| "slideOutDown"
-		| "slideOutLeft"
-		| "slideOutRight"
-		| "slideOutUp";
+  children: ReactNode;
+  type: 'block' | 'inline';
+  entranceDelay?: 0 | 2 | 3 | 4 | 5;
+  entranceSpeed?: 'normal' | 'slow' | 'slower' | 'fast' | 'faster';
+  animationRepeat?: 0 | 1 | 2 | 3 | 'infinite';
+  entranceType?:
+    | 'specialsJackInTheBox'
+    | 'specialsRollIn'
+    | 'backInDown'
+    | 'backInLeft'
+    | 'backInRight'
+    | 'backInUp'
+    | 'bounceIn'
+    | 'bounceInDown'
+    | 'bounceInLeft'
+    | 'bounceInRight'
+    | 'bounceInUp'
+    | 'fadeIn'
+    | 'fadeInDown'
+    | 'fadeInDownBig'
+    | 'fadeInLeft'
+    | 'fadeInLeftBig'
+    | 'fadeInRight'
+    | 'fadeInRightBig'
+    | 'fadeInUp'
+    | 'fadeInUpBig'
+    | 'fadeInTopLeft'
+    | 'fadeInTopRight'
+    | 'fadeInBottomLeft'
+    | 'fadeInBottomRight'
+    | 'flipInX'
+    | 'flipInY'
+    | 'lightSpeedInRight'
+    | 'lightSpeedInLeft'
+    | 'rotateIn'
+    | 'rotateInDownLeft'
+    | 'rotateInDownRight'
+    | 'rotateInUpLeft'
+    | 'rotateInUpRight'
+    | 'zoomIn'
+    | 'zoomInUp'
+    | 'zoomInDown'
+    | 'zoomInLeft'
+    | 'zoomInRight'
+    | 'slideInDown'
+    | 'slideInLeft'
+    | 'slideInRight'
+    | 'slideInUp';
+  exitType?:
+    | 'specialsHinge'
+    | 'specialsRollOut'
+    | 'backOutDown'
+    | 'backOutLeft'
+    | 'backOutRight'
+    | 'backOutUp'
+    | 'bounceOut'
+    | 'bounceOutDown'
+    | 'bounceOutLeft'
+    | 'bounceOutRight'
+    | 'bounceOutUp'
+    | 'fadeOut'
+    | 'fadeOutDown'
+    | 'fadeOutDownBig'
+    | 'fadeOutLeft'
+    | 'fadeOutLeftBig'
+    | 'fadeOutRight'
+    | 'fadeOutRightBig'
+    | 'fadeOutUp'
+    | 'fadeOutUpBig'
+    | 'fadeOutTopLeft'
+    | 'fadeOutTopRight'
+    | 'fadeOutBottomLeft'
+    | 'fadeOutBottomRight'
+    | 'flipOutX'
+    | 'flipOutY'
+    | 'lightSpeedOutRight'
+    | 'lightSpeedOutLeft'
+    | 'rotateOut'
+    | 'rotateOutDownLeft'
+    | 'rotateOutDownRight'
+    | 'rotateOutUpLeft'
+    | 'rotateOutUpRight'
+    | 'zoomOut'
+    | 'zoomOutUp'
+    | 'zoomOutDown'
+    | 'zoomOutLeft'
+    | 'zoomOutRight'
+    | 'slideOutDown'
+    | 'slideOutLeft'
+    | 'slideOutRight'
+    | 'slideOutUp';
+  // eslint-disable-next-line semi
 }

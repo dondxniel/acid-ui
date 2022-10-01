@@ -1,3 +1,3 @@
 export interface UncontrolledInputProps {
-	type: string;
+  type: string;
 }

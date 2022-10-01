@@ -1,20 +1,16 @@
-import React from "react";
+import React from 'react';
 // constants
-import { inputTypes } from "../../../constants";
+import { inputTypes } from '../../../constants';
 // interfaces
-import { UncontrolledInputProps } from "../../../interfaces/InputProps";
+import { UncontrolledInputProps } from '../../../interfaces/InputProps';
 // styles
 // import "../../../styles/input.scss";
 // input fields
-import Password from "./Password";
+import Password from './Password';
 
+// eslint-disable-next-line func-names
 export default function ({ type }: UncontrolledInputProps) {
-	if (type === inputTypes.pw) return <Password />;
+  if (type === inputTypes.pw) return <Password />;
 
-	return (
-		<input
-			type={inputTypes.txt}
-			placeholder="!unknown/unrepresented input type!"
-		/>
-	);
+  return <input type={inputTypes.txt} placeholder="!unknown/unrepresented input type!" />;
 }
