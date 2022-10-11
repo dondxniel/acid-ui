@@ -1,6 +1,6 @@
 {
 	"name": "acid-ui",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "A react component and animation library that abstracts out the logic behind compound components without imposing a styling pattern on the developer. It's animation components and hooks are wrappers and helpers for animate.css CSS library. ",
 	"main": "dist/index.js",
 	"repository": "https://github.com/dondxniel/acid-ui",
