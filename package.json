@@ -1,6 +1,6 @@
 {
 	"name": "acid-ui",
-	"version": "0.0.3",
+	"version": "0.0.8",
 	"description": "A react component and animation library that abstracts out the logic behind compound components without imposing a styling pattern on the developer. It's animation components and hooks are wrappers and helpers for animate.css CSS library. ",
 	"main": "dist/index.js",
 	"repository": "https://github.com/dondxniel/acid-ui",
@@ -36,5 +36,11 @@
 		"build": "rm -rf ./dist && tsup src/index.ts --dts",
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook"
-	}
+	},
+	"keywords": [
+		"react",
+		"typescript",
+		"animation",
+		"component library"
+	]
 }
