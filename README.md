@@ -8,7 +8,7 @@ ACID UI is a react component and animation library that abstracts out the logic 
 
 ## FEATURES
 
-1. Animated Renders: This is a component wrapper that is used to render a component in an animated manner when they come into view. A use case for this is if you want elements to only get rendered when their within view and you want them to have a dramatic, animated render-like fade-in or zoom-in.
+1. Animated Renders: This is a component wrapper that is used to render a component with whatever specified type of animation. A use case for this is if you want components to get rendered to the UI in a smooth, calm fashion.
 2. Animation hook: This is a hook that programmatically causes your elements to animate in certain ways. A use case for this is if you're trying to make a form input 'wobble' if a certain character is being entered.
 
 ## INSTALLATION
